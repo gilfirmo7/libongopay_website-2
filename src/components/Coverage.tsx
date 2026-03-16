@@ -36,7 +36,7 @@ export default function Coverage() {
   const { t } = useLanguage();
   const [selectedCountry, setSelectedCountry] = useState(countries[0]);
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
-  const [particles, setParticles] = useState<any[]>([]);
+  const [particles, setParticles] = useState<Array<{id: number; x: number; y: number; size: number; duration: number; delay: number}>>([]);
 
   useEffect(() => {
     setParticles(generateParticles(20));
