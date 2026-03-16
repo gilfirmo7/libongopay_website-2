@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Orange rays -->
+  <g fill="#F9A825">
+    <!-- Top rays -->
+    <rect x="85" y="15" width="8" height="35" rx="4" transform="rotate(-15 89 32.5)"/>
+    <rect x="115" y="10" width="8" height="40" rx="4" transform="rotate(15 119 30)"/>
+    <!-- Top right rays -->
+    <rect x="145" y="40" width="45" height="8" rx="4" transform="rotate(-15 167.5 44)"/>
+    <rect x="150" y="65" width="40" height="8" rx="4" transform="rotate(5 170 69)"/>
+    <rect x="148" y="90" width="42" height="8" rx="4" transform="rotate(20 169 94)"/>
+    <!-- Bottom right rays -->
+    <rect x="145" y="120" width="40" height="8" rx="4" transform="rotate(-10 165 124)"/>
+    <rect x="140" y="145" width="45" height="8" rx="4" transform="rotate(15 162.5 149)"/>
+    <!-- Bottom rays -->
+    <rect x="115" y="155" width="8" height="35" rx="4" transform="rotate(-15 119 172.5)"/>
+    <rect x="85" y="160" width="8" height="30" rx="4" transform="rotate(15 89 175)"/>
+    <!-- Bottom left rays -->
+    <rect x="20" y="145" width="40" height="8" rx="4" transform="rotate(-15 40 149)"/>
+    <rect x="15" y="120" width="45" height="8" rx="4" transform="rotate(10 37.5 124)"/>
+    <!-- Left rays -->
+    <rect x="10" y="90" width="45" height="8" rx="4" transform="rotate(-20 32.5 94)"/>
+    <rect x="15" y="65" width="40" height="8" rx="4" transform="rotate(-5 35 69)"/>
+    <rect x="15" y="40" width="45" height="8" rx="4" transform="rotate(15 37.5 44)"/>
+  </g>
+  <!-- Purple wallet -->
+  <g>
+    <rect x="55" y="55" width="90" height="90" rx="12" fill="#6B2D7B"/>
+    <!-- Wallet fold -->
+    <path d="M130 80 L145 80 L145 120 L130 120 C125 120 120 115 120 110 L120 90 C120 85 125 80 130 80Z" fill="white"/>
+    <!-- Wallet button -->
+    <circle cx="130" cy="100" r="8" fill="#F9A825"/>
+  </g>
+</svg>

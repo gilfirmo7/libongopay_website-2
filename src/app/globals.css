@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 270 50% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 270 50% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 270 50% 15%;
+    --primary: 276 55% 33%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 43 95% 56%;
+    --secondary-foreground: 270 50% 15%;
+    --muted: 270 20% 96%;
+    --muted-foreground: 270 10% 47%;
+    --accent: 43 95% 56%;
+    --accent-foreground: 270 50% 15%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 270 20% 90%;
+    --input: 270 20% 90%;
+    --ring: 276 55% 33%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, #4a1a5e 0%, #6B2D7B 50%, #8B3D9B 100%);
+  }
+  .gradient-hero {
+    background: linear-gradient(180deg, #3d1550 0%, #5a2370 50%, #6B2D7B 100%);
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #F9A825 0%, #FBC02D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
